@@ -1,0 +1,50 @@
+:root {
+  /* Brand palette */
+  --color-black: #111111;
+  --color-ink: #1c1b19;
+  --color-ink-soft: #4f4b45;
+  --color-muted: #6f6a62;
+  --color-cream: #f2ede4;
+  --color-cream-deep: #e7e0d3;
+  --color-offwhite: #faf8f4;
+  --color-white: #ffffff;
+  --color-gray-100: #f3f1ed;
+  --color-gray-200: #e6e1d8;
+  --color-gray-300: #d4cec3;
+  --color-green: #5b6b4a;
+  --color-green-dark: #46553a;
+  --color-green-soft: #e7ebe1;
+
+  /* Status */
+  --color-success: #3f6b45;
+  --color-success-bg: #e5efe4;
+  --color-warning: #8a5a00;
+  --color-warning-bg: #f6ecd6;
+  --color-danger: #a33a2b;
+  --color-danger-bg: #f7e3df;
+  --color-info: #35546f;
+  --color-info-bg: #e3eaf1;
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
+  --font-body: 'Jost', 'Helvetica Neue', Arial, sans-serif;
+
+  /* Layout */
+  --container: 1320px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+  --nav-height: 72px;
+
+  --shadow-sm: 0 1px 2px rgba(17, 17, 17, 0.05);
+  --shadow: 0 8px 30px rgba(17, 17, 17, 0.08);
+  --shadow-lg: 0 24px 60px rgba(17, 17, 17, 0.16);
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --t-fast: 150ms var(--ease);
+  --t: 260ms var(--ease);
+  --t-slow: 420ms var(--ease);
+
+  --focus-ring: 0 0 0 3px rgba(91, 107, 74, 0.45);
+}

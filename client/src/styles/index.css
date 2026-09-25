@@ -1,0 +1,7 @@
+/* ORiXA styles — imported once in main.jsx */
+@import './variables.css';
+@import './base.css';
+@import './components.css';
+@import './layout.css';
+@import './pages.css';
+@import './admin.css';
